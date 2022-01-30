@@ -46,11 +46,25 @@ const Upcoming = () => {
       added: "30-01-2022",
       src: "https://www.quirkybyte.com/wp-content/uploads/2022/01/Bachelor-Tamil-Movie-Download-Moviesda-780x470-1.jpg",
     },
+    {
+      title: "Naai Sekar ",
+      desc: "Nai Sekar movie description",
+      duration: 120,
+      added: "30-01-2022",
+      src: "https://www.quirkybyte.com/wp-content/uploads/2022/01/Bachelor-Tamil-Movie-Download-Moviesda-780x470-1.jpg",
+    },
+    {
+      title: "Naai Sekar ",
+      desc: "Nai Sekar movie description",
+      duration: 120,
+      added: "30-01-2022",
+      src: "https://www.quirkybyte.com/wp-content/uploads/2022/01/Bachelor-Tamil-Movie-Download-Moviesda-780x470-1.jpg",
+    },
   ];
   return (
-    <div>
-      <h1 className="md:text-xl mb-5">Upcoming Videos</h1>
-      <div className="ml-2">
+    <div className="">
+      <h1 className="md:text-xl mb-2">Upcoming Videos</h1>
+      <div className=" h-full overflow-y-auto">
         {videos.map((item, index) => (
           <Fragment key={index}>
             <VideoCard

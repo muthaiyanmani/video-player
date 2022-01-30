@@ -7,8 +7,10 @@ const VideoCard = ({ src, title, desc, duration, added }) => {
         <img className="w-36 h-20" src={src} alt="" />
       </div>
       <div>
-        <h1 className="w-40">{title}</h1>
-        <h3 className="text-xs text-gray-400">{desc}</h3>
+        <p className="text-ellipsis w-40">{title}</p>
+        <p className="text-xs truncate w-40 overflow-hidden text-gray-400">
+          {desc}
+        </p>
         <h3 className="text-xs ">
           Duration: <span className="text-gray-500">{duration} mins</span>
         </h3>

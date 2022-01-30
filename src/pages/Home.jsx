@@ -12,8 +12,8 @@ const Home = () => {
       <div className="md:flex">
         <div className=" md:w-9/12">
           <Video
-            title={"React Video Player Title"}
-            description="Video Description | Bachelor Movie | Youtube"
+            title="Bachelor Movie | Youtube"
+            description="Bachelor movie GV Prakash and Divya bharathi"
             url={
               "https://torrentdownload-1.s3.ap-south-1.amazonaws.com/bachelor.mkv"
             }
