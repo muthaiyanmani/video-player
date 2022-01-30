@@ -1,10 +1,10 @@
-import Video from "./components/Video";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
-      <Video />
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
